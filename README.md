@@ -1,2 +1,2 @@
 Nextjs - Typescript - Storybook - Sass  
-NextAuth - cypress - prisma
+NextAuth - cypress - prisma - swr
