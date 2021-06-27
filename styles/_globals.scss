@@ -1,5 +1,8 @@
+@import 'font';
+
 html {
-  font-size: 100%;
+  font-size: 200%;
+  font-family: 'Poppins-Light';
   box-sizing: border-box;
 }
 
@@ -17,7 +20,9 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  *, ::before, ::after {
+  *,
+  ::before,
+  ::after {
     animation-delay: -1ms !important;
     animation-duration: 1ms !important;
     animation-iteration-count: 1 !important;

@@ -1,0 +1,9 @@
+$Familys: ("Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black");
+
+@for $i from 0 to 9 {
+  @font-face {
+    font-family: 'Poppins-#{nth($Familys, $i+1)}';
+    font-weight: 100 * ($i+1);
+    src: url('/font/Poppins/Poppins-#{nth($Familys, $i+1)}.ttf') format('truetype');
+  }
+}

@@ -1,9 +1,5 @@
-import Title from 'components/title';
+import React from 'react';
 
 export default function Home() {
-  return (
-    <>
-      <Title />
-    </>
-  );
+  return <h1>Bonjour</h1>;
 }
